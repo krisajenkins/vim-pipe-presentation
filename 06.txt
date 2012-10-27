@@ -1,0 +1,5 @@
+Find it at github.com/krisajenkins/vim-pipe
+
+ (Or search for 'vim pipe'.)
+
+Questions?

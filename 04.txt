@@ -1,0 +1,12 @@
+How does it work?
+
+	STDIN -> b:vimpipe_command -> STDOUT
+
+Eg:
+
+	~/.vim/ftplugin/javascript.vim
+		let b:vimpipe_command='node -p'
+
+	~/.vim/ftplugin/sql.vim
+		let b:vimpipe_command='psql dbname'
+

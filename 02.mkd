@@ -1,0 +1,5 @@
+# Heading
+
+Demonstrating Vim-Pipe at the London Vim meetup group[1].
+
+[1] http://www.meetup.com/Vim-London/
