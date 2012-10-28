@@ -1,3 +1,6 @@
+// let b:vimpipe_command='mongo'
+// let b:vimpipe_filetype='javascript'
+
 use books;
 db.book.find( null, {author: 1, title: 1 });
 db.runCommand( {dbStats: 1} );
