@@ -1,9 +1,15 @@
-Some file types spend most of their time
+How does it work?
 
-	being edited (vi)
+	vim ->
 
-Or
+		STDIN -> b:vimpipe_command -> STDOUT
 
-	being invoked by one particular command.
+	vim <-
 
-Vim Pipe ties the two together.
+Eg:
+
+	~/.vim/ftplugin/javascript.vim
+		let b:vimpipe_command='node'
+
+	~/.vim/ftplugin/sql.vim
+		let b:vimpipe_command='psql dbname'
