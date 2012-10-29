@@ -1,5 +1,4 @@
 
+								Vim Pipe
 
-				  Vim Pipe
-
-			(development plugin)
+							(development plugin)
